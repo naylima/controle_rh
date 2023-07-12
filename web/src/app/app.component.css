@@ -1,0 +1,10 @@
+.container {
+  height: 70vh;
+  width: 50vw;
+
+  background-color: #fff;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, .2);
+
+  display: flex;
+  overflow: hidden;
+}

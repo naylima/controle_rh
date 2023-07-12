@@ -1,0 +1,13 @@
+<main class="wrapper">
+  <h1>Candidatos Aprovados</h1>
+  <div *ngIf="aprovados.length > 0; else noAprovados">
+    <div class="aprovados-container">
+      <ul class="aprovados" *ngFor="let aprovado of aprovados">
+       <li>{{aprovado}}</li>
+      </ul>
+    </div>
+  </div>
+  <ng-template #noAprovados>
+    <h2>Não há candidatos aprovados no momento!</h2>
+  </ng-template>  
+</main>

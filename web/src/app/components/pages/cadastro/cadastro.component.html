@@ -1,0 +1,12 @@
+<main class="wrapper">
+  <h1>Cadastro de Candidato</h1>
+  <app-form 
+    [type] = "type"
+    [label] = "label"
+    [placeholder] = "placeholder"
+    [field]="field"
+    [errorMessage] = "errorMessage"
+    (onSubmit)="createHandler($event)"
+  >
+  </app-form>
+</main>

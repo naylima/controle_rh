@@ -1,0 +1,16 @@
+footer {
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer span {
+  font-weight: bold;
+  color: #DCE129;
+}
+
+footer p {
+  color: #444;
+}

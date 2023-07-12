@@ -1,0 +1,15 @@
+<form (ngSubmit)="submit()" [formGroup]="candidatoForm" #formDir="ngForm">
+  <div class="form-group">
+    <label for="nome">{{label}}:</label>
+    <input 
+      type="{{type}}"
+      placeholder="{{placeholder}}"
+      [formControlName]="field"
+      required
+    >
+    <div *ngIf="candidatoForm.get(field)?.invalid && candidatoForm.get(field)?.touched" class="validation-error">
+      <p>{{errorMessage}}</p>
+    </div>
+  </div>
+  <input type="submit" value="Enviar"/>
+</form>
