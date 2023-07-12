@@ -2,6 +2,9 @@
 
 Este é um aplicativo para controlar o processo de contratação de candidatos. Ele consiste em um front-end Angular e um back-end Spring Boot.
 
+![image](https://github.com/naylima/controle_rh/assets/103192779/3b1ed608-d532-466f-9265-a8b00ebad3d4)
+
+
 ## Configuração do Front-end
 
 Siga estas etapas para configurar e executar o front-end:
