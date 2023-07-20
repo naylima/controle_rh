@@ -16,7 +16,7 @@ Siga estas etapas para configurar e executar o front-end:
 3. Navegue até o diretório do front-end:
 
    ```
-   cd front-end
+   cd web
    ```
 
 4. Instale as dependências do projeto:
@@ -46,7 +46,7 @@ Siga estas etapas para configurar e executar o back-end:
 3. Navegue até o diretório do back-end:
 
    ```
-   cd back-end
+   cd api
    ```
 
 4. Importe o projeto em sua IDE de desenvolvimento como um projeto Maven existente.
